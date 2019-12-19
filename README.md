@@ -1,24 +1,33 @@
-# README
+# Purpose
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A quick clonable rails repo to get started with Rails 6
 
-Things you may want to cover:
+## Getting started
 
-* Ruby version
+```bash
+docker-compose build
+docker-compose up
+```
 
-* System dependencies
+Navigate to localhost:3000 and voila!
 
-* Configuration
+There are two options for this repo you can clone it:
 
-* Database creation
+```bash
+git clone https://github.com/ParamagicDev/rails6-skeleton.git
+cd rails6-skeleton
+```
 
-* Database initialization
+Change the remote, change the directory name, and youre good to go. <br>
 
-* How to run the test suite
+Alternatively, you could use the Github Template feature.
 
-* Services (job queues, cache servers, search engines, etc.)
+## Whats included
 
-* Deployment instructions
-
-* ...
+- Dockerfile
+- docker-compose.yml - version 3
+- Rails - 6.0.1
+- Ruby - 2.6.3
+- NodeJS - 12.X.X
+- Yarn - latest stable version
+- PostgresQL - 11.6
