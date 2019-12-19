@@ -31,3 +31,8 @@ Alternatively, you could use the Github Template feature.
 - NodeJS - 12.X.X
 - Yarn - latest stable version
 - PostgresQL - 11.6
+
+## Removing static pages controller / views
+
+A simple `rails destroy controller StaticPages` should revert static pages changes.
+You may also have to navigate to `config/routes.rb` to change the root route.
